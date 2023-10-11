@@ -1,0 +1,27 @@
+---
+- name: Search the flights in the database
+  uid: cfa86bc2-53e4-413c-915e-190af658ca8e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: if atleast one flight is present
+  uid: 77a38e19-2dd5-4462-8983-feafb3204dad
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: return the list of flights
+  uid: d8266358-d2bd-4046-94fb-f992c8f4009c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: save with following attributes
+  uid: 680a8422-16aa-483d-917a-c67c7b21cf2d
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: save the flight
+  uid: bee21f51-56cd-4424-9066-78da5e19535a
+  parameters:
+  - name: flight_no
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: check if it is saved
+  uid: e48fbb82-0e21-4190-8656-946b6c1c4f25
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
